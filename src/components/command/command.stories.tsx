@@ -38,7 +38,8 @@ type Story = StoryObj<typeof Command>;
 export const Default: Story = {
   name: "Padrão",
   args: {
-    className: "rounded-lg border shadow-md w-[300px] min-w-[200px]",
+    className:
+      "rounded-lg border border-border shadow-md w-[300px] min-w-[200px]",
     children: (
       <>
         <CommandInput placeholder="Digite um comando ou pesquise..." />

@@ -61,7 +61,7 @@ export const Single: Story = {
         <Calendar
           mode="single"
           selected={date}
-          onSelect={(e) => setDate(e)}
+          onSelect={setDate}
           className="rounded-md border"
         />
         <div className="mt-8">

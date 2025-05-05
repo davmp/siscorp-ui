@@ -14,7 +14,7 @@ type Story = StoryObj<typeof Separator>;
 export const Default: Story = {
   name: "Padrão",
   render: () => (
-    <div className="w-min border p-4 rounded-md shadow">
+    <div className="w-min border border-border p-4 rounded-md shadow">
       <div className="space-y-1">
         <h4 className="text-sm font-medium leading-none">Siscorp UI</h4>
         <p className="text-sm text-muted-foreground">

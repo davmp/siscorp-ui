@@ -43,7 +43,7 @@ export const Normal: Story = {
         type="email"
         id="email"
         placeholder="Digite seu email..."
-        className="w-[300px] border border-gray-300 rounded-md p-2"
+        className="w-[300px]"
       />
     </div>
   ),
