@@ -514,3 +514,4 @@ function YearGrid({
 }
 
 export { Calendar };
+export type { Matcher } from "react-day-picker";
