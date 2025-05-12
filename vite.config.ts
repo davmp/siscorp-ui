@@ -12,7 +12,7 @@ export default defineConfig({
     react(),
     tsconfigPaths(),
     tailwindcss(),
-    dts({ rollupTypes: true }),
+    dts({ rollupTypes: true, insertTypesEntry: true }),
   ],
   resolve: {
     alias: {
