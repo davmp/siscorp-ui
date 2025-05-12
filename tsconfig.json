@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"declaration": true,
+		"emitDeclarationOnly": true,
 		"target": "ES2020",
 		"useDefineForClassFields": true,
 		"lib": [
